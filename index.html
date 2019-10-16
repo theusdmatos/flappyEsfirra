@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html> 
+	<head>
+
+		<title> Flappy Esfirra </title>
+		<link rel="stylesheet" type="text/css" media="screen and (min - width: 0px)" href="css/small.css"/>
+		<link rel="stylesheet" media="screen and (min - width: 1000px)"type="text/css" media="screen and (min - width: 1350px)"href="css/medium.css"/>
+		<link rel="stylesheet" type="text/css" href="css/large.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style_center.css"/>
+		<link rel="stylesheet" href="demo.css">
+
+		<script>
+			var SQUARIFIC = {};
+			window.requestAnimationFrame = (function(){
+			  return  window.requestAnimationFrame       || 
+					  window.webkitRequestAnimationFrame || 
+					  window.mozRequestAnimationFrame    || 
+					  window.oRequestAnimationFrame      || 
+					  window.msRequestAnimationFrame     || 
+					  function( callback ){
+					    window.setTimeout(callback, 1000 / 60);
+					  };
+			})();
+		</script>
+		<script src="TouchControl.js"></script>
+		<script src="demo.js"></script>
+		</head>
+<body onload="SQUARIFIC.touchControlDemo = new SQUARIFIC.TouchControlDemo(document.body, 'touchControlDemo', {});">
+	<div class"one-div"> </div>
+	<div class="explain">
+			
+		</div>
+	
+	<canvas id="canvas"                   
+		width= "288"  
+		height= "512">
+		</canvas>
+	<script src="appjs.js"></script>
+	</body>
+	</html>
+

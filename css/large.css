@@ -1,0 +1,11 @@
+*{
+	margin: : 0px;
+	padding: 0px;
+}
+.one-div{
+	position:  relative;;
+	width: 1350px /* procurar valor bom */
+	margin: 0 auto;
+	height: 500px;
+	background-color: #FFE4C4;
+}
