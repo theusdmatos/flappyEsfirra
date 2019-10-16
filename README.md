@@ -1,6 +1,6 @@
 # flappyEsfirra
 
-Esfirra is a stuffed animal that was captured on mall stuffed machines, this application was a joke considering that the sound he makes "Papai pai Papai".
+Esfirra is a stuffed animal that was captured on mall stuffed machines, this application was a joke considering that the sound he makes "Pai Pai Papai".
 
 Have fun changing the picture and sound for whatever you want, even Flappy Bird itself.
 
